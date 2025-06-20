@@ -6,11 +6,11 @@
 
 #### Keypoints:
 
-IAM is global, so this service is found in every region
-**TIP:** Never use root account
-A user can be a member of nultiple groups or no groups.
-Policies can be attached to groups/users, through which users inherits
-Groups cannot contain another group
+- IAM is global, so this service is found in every region
+- **TIP:** Never use root account
+- A user can be a member of nultiple groups or no groups.
+- Policies can be attached to groups/users, through which users inherits
+- Groups cannot contain another group
 
 We create users and groups, to allow/deny services, through JSON documents known as Policies, in AWS Least Privilege Principals is applied. Policies are attached to groups or users.
 
