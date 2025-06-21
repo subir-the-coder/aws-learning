@@ -16,14 +16,16 @@ We create users and groups, to allow/deny services, through JSON documents known
 
 JSON document contains 
 - Version
+- id
 - Statements
-  - SID
+  - SID (optional)
+  - Principal - (which account/user/role the policy to be applied)
   - Effect (allow/deny)
-  - Action (What action needds to be done)
-  - Resource (On which services)
-  - Condition
+  - Action (What action needds to be done, i.e the list of API calls)
+  - Resource (On which services, list of resources)
+  - Condition (when the policy is to be applied, optional)
 
-Example:
+Example of a policy:
 
 <pre>{
   "Version" : "2012-10-17",
@@ -36,5 +38,12 @@ Example:
   ]
 }</pre>
 
+Policies are attached to Groups, and are inherited by users.
+**Note:** Policies can directly also be attached to users but is not a good practise.
+
+Own policies can be created too, from IAM >> Policies
+We have a Visual Editor and a JSON Editor to create a custom policy
+
+#### So learnt how to attach Policies to a user, through Groups and directly. Also learnt how to create custom Policy
 
 
