@@ -46,4 +46,21 @@ We have a Visual Editor and a JSON Editor to create a custom policy
 
 #### So learnt how to attach Policies to a user, through Groups and directly. Also learnt how to create custom Policy
 
+🔐 IAM Evaluation Logic
+AWS IAM uses additive permissions:
+
+All attached policies (user policies, group policies, managed or inline) are combined.
+
+If any of them allows an action, and none explicitly deny, the action is allowed.
+
+#### In case:
+
+Custom policy only allows ListUsers and GetUser.
+
+But AdministratorAccess via the group allows everything, including iam:CreateUser.
+
+So IAM evaluates the union of both policies. Since nothing explicitly denies iam:CreateUser, and AdministratorAccess allows it
+
+**TIP:** An explicit Deny always wins, even if another policy allows it.
+
 
