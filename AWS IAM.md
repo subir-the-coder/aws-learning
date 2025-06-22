@@ -1,6 +1,6 @@
 # AWS IAM Notes
 
-**Status:** In Progress
+**Status:** Complete
 
 #### All about IAM Users, Groups and Policies
 
