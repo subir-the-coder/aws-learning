@@ -14,6 +14,8 @@
 
 We create users and groups, to allow/deny services, through JSON documents known as Policies, in AWS Least Privilege Principals is applied. Policies are attached to groups or users.
 
+#### IAM Roles are for temporary access, often assumed by services or external identities. IAM Users are permanent identities for people or services.
+
 JSON document contains 
 - Version
 - id
