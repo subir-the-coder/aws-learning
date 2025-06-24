@@ -41,3 +41,12 @@ Ex: m5.2xlarge
 Compute Optimzed Instances names starts with c series 
 Memory Optimzed Instances starts with r series *r stands for RAM
 Storage Optimized Instances starts with i, g series
+
+#### EC2 Security Groups
+
+Inbound and Outbound security groups are defined, so that we can restrict on what others can access services on the instance like SSH, HTTP etc
+Outbound usually allows all traffic from EC2 instance to internet, to get full internet service.
+
+We can have as many security groups we want, and attach them to EC2 instance
+
+
