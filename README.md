@@ -7,7 +7,7 @@ This repository contains my notes and practice materials for the AWS Certified S
 
 ## ✅ Covered Topics
 - IAM (Completed)
-- EC2 (Coming up)
+- EC2 (Completed)
 - S3
 - CloudWatch
 - Networking
