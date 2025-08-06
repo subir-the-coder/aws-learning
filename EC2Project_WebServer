@@ -1,0 +1,11 @@
+Launched my very own EC2 Web Server in the AWS cloud
+✔️ Created and configured the security group
+✔️ Wrote a custom bootstrapping script to automate Apache setup
+✔️ SSH'd into the instance and edited files manually
+✔️ Applied some cool glassmorphism in HTML/CSS
+✔️ Displayed live public & private IPs using EC2 metadata
+
+Feels amazing to bring something alive directly from the cloud 🌩️
+many more AWS adventures ahead!
+
+
