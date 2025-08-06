@@ -18,3 +18,4 @@ This project demonstrates how to manually set up a web server on an AWS EC2 inst
 
 **Keynote:** Public IP changes on every start/stop instances as of this learning
 
+<img width="1366" height="768" alt="ec2_webserver" src="https://github.com/user-attachments/assets/f07c1f47-459a-4d92-acca-9a078881803c" />
